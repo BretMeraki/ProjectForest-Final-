@@ -1,0 +1,21 @@
+# Core FastAPI framework and server
+fastapi[all]
+
+# Database ORM
+sqlalchemy
+
+# HTTP client for LLM integration
+httpx
+
+# Retry library for LLM integration
+tenacity
+
+# Natural Language Toolkit (Optional, for pattern_id.py advanced features)
+nltk
+
+# Linter/Formatter (Development tool)
+ruff
+
+# Add database drivers below if you switch from SQLite later
+# e.g., psycopg2-binary (for PostgreSQL)
+# e.g., pymysql (for MySQL/MariaDB)
